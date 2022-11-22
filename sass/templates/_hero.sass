@@ -1,0 +1,46 @@
+.hero
+    padding: 70px 0
+    &-items
+        &__item
+            text-align: center
+            margin-bottom: 50px
+            &:last-child
+                text-align: start
+            &-head
+                font-size: 40px
+            &-text
+                font-size: 20px
+            &-wrapper
+                position: relative
+                width: 200px
+                height: 200px
+                margin: 0 auto
+                &-arrowL
+                    position: absolute
+                    top: 50%
+                    left: -50%
+                    cursor: pointer
+                &-arrowR
+                    position: absolute
+                    top: 50%
+                    left: 90%
+                    cursor: pointer
+            &__slider
+                height: 200px
+                width: 200px
+                position: relative
+                overflow: hidden
+                &-slides
+                    height: 200px
+                    width: 200px
+                    display: flex
+                    &-slide
+                        text-align: center
+                        height: 150px
+                        width: 200px
+                        position: relative
+                        margin-right: 50px
+                        &-img
+                            max-width: 150px
+                        &-text
+                            font-size: 20px
